@@ -5,13 +5,16 @@ class Student
     @grade = grade
     @id = id
   end
-  
+
   def self.create_table
   end
-  
+
   def save
   end
-  
-  def drop_table
+
+  def self.create(name:, grade:)
+  end
+
+  def self.drop_table
   end
 end
